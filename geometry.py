@@ -47,22 +47,23 @@ class Geometry:
 # Przykład użycia
 geometry = Geometry()
 
-# Prostokąt
-print("Pole prostokąta:", geometry.rectangle_area(5, 10))
-print("Obwód prostokąta:", geometry.rectangle_perimeter(5, 10))
+print("Usage example")
 
-# Koło
-print("Pole koła:", geometry.circle_area(7))
-print("Obwód koła:", geometry.circle_circumference(7))
+print("Rectangle area:", geometry.rectangle_area(5, 10))
+print("Rectangle perimeter:", geometry.rectangle_perimeter(5, 10))
 
-# Trójkąt
-print("Pole trójkąta:", geometry.triangle_area(6, 8))
-print("Obwód trójkąta:", geometry.triangle_perimeter(3, 4, 5))
+# Circle
+print("Circle area:", geometry.circle_area(7))
+print("Circle circumference:", geometry.circle_circumference(7))
 
-# Kwadrat
-print("Pole kwadratu:", geometry.square_area(4))
-print("Obwód kwadratu:", geometry.square_perimeter(4))
+# Triangle
+print("Triangle area:", geometry.triangle_area(6, 8))
+print("Triangle perimeter:", geometry.triangle_perimeter(3, 4, 5))
 
-# Trapez
-print("Pole trapezu:", geometry.trapezoid_area(5, 10, 6))
-print("Obwód trapezu:", geometry.trapezoid_perimeter(5, 10, 4, 7))
+# Square
+print("Square area:", geometry.square_area(4))
+print("Square perimeter:", geometry.square_perimeter(4))
+
+# Trapezoid
+print("Trapezoid area:", geometry.trapezoid_area(5, 10, 6))
+print("Trapezoid perimeter:", geometry.trapezoid_perimeter(5, 10, 4, 7))
