@@ -46,6 +46,7 @@ class Geometry:
 
 # Przykład użycia
 geometry = Geometry()
+print("Przykład użycia klasy")
 
 # Prostokąt
 print("Pole prostokąta:", geometry.rectangle_area(5, 10))
