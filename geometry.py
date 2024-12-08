@@ -36,6 +36,14 @@ class Geometry:
         """Oblicza obwód kwadratu"""
         return 4 * side
 
+    def trapezoid_area(self, a, b, height):
+        """Oblicza pole trapezu"""
+        return 0.5 * (a + b) * height
+
+    def trapezoid_perimeter(self, a, b, c, d):
+        """Oblicza obwód trapezu"""
+        return a + b + c + d
+
 # Przykład użycia
 geometry = Geometry()
 
@@ -54,3 +62,7 @@ print("Obwód trójkąta:", geometry.triangle_perimeter(3, 4, 5))
 # Kwadrat
 print("Pole kwadratu:", geometry.square_area(4))
 print("Obwód kwadratu:", geometry.square_perimeter(4))
+
+# Trapez
+print("Pole trapezu:", geometry.trapezoid_area(5, 10, 6))
+print("Obwód trapezu:", geometry.trapezoid_perimeter(5, 10, 4, 7))
