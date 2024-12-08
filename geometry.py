@@ -52,4 +52,17 @@ print("Pole prostokąta:", geometry.rectangle_area(5, 10))
 print("Obwód prostokąta:", geometry.rectangle_perimeter(5, 10))
 
 # Koło
-print("Pole koła:", geometry.circle_area(
+print("Pole koła:", geometry.circle_area(7))
+print("Obwód koła:", geometry.circle_circumference(7))
+
+# Trójkąt
+print("Pole trójkąta:", geometry.triangle_area(6, 8))
+print("Obwód trójkąta:", geometry.triangle_perimeter(3, 4, 5))
+
+# Kwadrat
+print("Pole kwadratu:", geometry.square_area(4))
+print("Obwód kwadratu:", geometry.square_perimeter(4))
+
+# Trapez
+print("Pole trapezu:", geometry.trapezoid_area(5, 10, 6))
+print("Obwód trapezu:", geometry.trapezoid_perimeter(5, 10, 4, 7))
