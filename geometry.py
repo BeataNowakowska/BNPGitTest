@@ -5,47 +5,40 @@ class Geometry:
         pass
 
     def rectangle_area(self, width, height):
-        """Calculates the area of a rectangle"""
+        """Oblicza pole prostokąta"""
         return width * height
 
     def rectangle_perimeter(self, width, height):
-        """Calculates the perimeter of a rectangle"""
+        """Oblicza obwód prostokąta"""
         return 2 * (width + height)
 
     def circle_area(self, radius):
-        """Calculates the area of a circle"""
+        """Oblicza pole koła"""
         return math.pi * radius ** 2
 
     def circle_circumference(self, radius):
-        """Calculates the circumference of a circle"""
+        """Oblicza obwód koła"""
         return 2 * math.pi * radius
 
     def triangle_area(self, base, height):
-        """Calculates the area of a triangle"""
+        """Oblicza pole trójkąta"""
         return 0.5 * base * height
 
     def triangle_perimeter(self, a, b, c):
-        """Calculates the perimeter of a triangle"""
+        """Oblicza obwód trójkąta"""
         return a + b + c
 
     def square_area(self, side):
-        """Calculates the area of a square"""
+        """Oblicza pole kwadratu"""
         return side ** 2
 
     def square_perimeter(self, side):
-        """Calculates the perimeter of a square"""
+        """Oblicza obwód kwadratu"""
         return 4 * side
-
-    def trapezoid_area(self, a, b, height):
-        """Calculates the area of a trapezoid"""
-        return 0.5 * (a + b) * height
-
-    def trapezoid_perimeter(self, a, b, c, d):
-        """Calculates the perimeter of a trapezoid"""
-        return a + b + c + d
 
 # Przykład użycia
 geometry = Geometry()
+print("Przykład użycia pakietu Geometry")
 
 print("Usage example")
 
